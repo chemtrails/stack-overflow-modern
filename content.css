@@ -1,0 +1,117 @@
+.z-nav,
+#sidebar .s-sidebarwidget,
+#hot-network-questions,
+#feed-link,
+#js-ai-search-alpha-popover,
+.s-popover.is-visible,
+#announcement-banner,
+.js-zone-container,
+.z-nav-fixed,
+h2.bottom-notice,
+#left-sidebar,
+ol.s-navigation,
+header .js-left-sidebar-toggle {
+    display: none !important;
+    --_po-d: none !important;
+}
+
+header {
+    border: none !important;
+}
+
+#content {
+    max-width: 100% !important;
+    width: 100% !important;
+    background: whitesmoke;
+}
+
+#answers, .answer {
+    max-width: 100% !important;
+}
+
+.answer pre {
+    width: 100% !important;
+}
+
+#mainbar {
+    z-index: 100 !important;
+}
+
+#sidebar {
+    max-width: 400px !important;
+}
+
+
+body > .container {
+    max-width: 100% !important;
+}
+
+#question {
+    border-radius: 5px;
+    padding: 0 5px 5px 5px !important;
+    background: white;
+    border-left: 2px solid rgb(244, 130, 37);
+    outline: 1px solid lightgrey;
+}
+
+.accepted-answer {
+    border-left: 2px solid lime;
+}
+
+.__so-extension-copy-button__ {
+    color: black;
+    background: whitesmoke;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    z-index: 101;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.__so-extension-copy-button__:hover {
+    outline: 2px solid grey;
+}
+
+.answer {
+    background: white;
+    margin-bottom: 10px;
+    padding-top: 0 !important;
+    outline: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.__so-extension-collapse-button__ {
+    width: 100%;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.__so-extension-collapse-button__:hover {
+    background: #d3d3d329;
+}
+
+.answer .post-layout {
+    padding-top: 5px;
+}
+
+.__so-extension-collapsed__ {
+    height: 30px !important;
+    overflow: hidden !important;
+}
+
+.s-prose pre {
+    margin-bottom: 0 !important;
+}
